@@ -6,7 +6,7 @@ function validarCredencialesFacil(correo, password) {
         { email: 'chuchiperriman.retbe', password: 'leonyaresmejores'},
         { email: 'tamarita.retbe' , password: 'tamarita123'},
         { email: 'gomas.retbe' , password: 'XD'},
-        { email: 'usuario.admin', password: 'n1l1ayvzz'},
+        { email: 'usuario.admin', password: 'leonadmin'},
     ];
 
     for ( usuario in listaUsuarios) {
@@ -21,7 +21,7 @@ function validarCredencialesFacil(correo, password) {
        return true;
     }  else if (correo === 'chuchiperriman.retbe' && password === 'leonyaresmejores') {
         return true;
-    } else if (correo === 'usuario.admin' && password === 'n1l1ayvzz') {
+    } else if (correo === 'usuario.admin' && password === 'leonadmin') {
         return true;
     } else if (correo === 'tamarita.retbe' && password === 'tamarita123') {
         return true;
