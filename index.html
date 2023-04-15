@@ -7,23 +7,59 @@
     <title>RetBe</title>
 </head>
 <style>
-    a {
-        color:chartreuse;
+    #txtCorreo {
+        height: 30px;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: rgba(224, 18, 18, 0);
+        border-right: 2px solid;
     }
 
-    p {
+    #txtContrasenna {
+        height: 30px;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: rgba(224, 18, 18, 0);
+        border-right: 2px solid;
+    }
+
+    #txt {
+        padding-right: 80px;
+    }
+
+    #txt2 {
+        padding-right: 90px;
+    }
+
+    #btnIngresar  {
+        height: 40px;
+        width: 100px;
+        background-color: rgba(224, 18, 18, 0);
+        border: none;
+        border-bottom: 2px solid;
+        border-right: 2px solid;
+    }
+
+    h4 {
         text-align: center;
+        color: black;
+    }
+
+    a {
+        text-decoration: none;
     }
 </style>
 <body background="img/photo-1511300636408-a63a89df3482.jpeg" style="font-family: 'Courier New', Courier, monospace; background-repeat:no-repeat; background-position: down ;background-size:100%;">
-    <form style="text-align: center;">
-        <h3 style="color: white; font-family: 'Courier New', Courier, monospace;">Login</h3>
-        <input id="txtCorreo" type="text" placeholder="Usuario" style="margin-bottom: 10px" ><br>
-        <input id="txtContrasenna" type="password" placeholder="Contraseña" style="margin-bottom: 10px"><br>
+    <form class="form" style="text-align: center;">
+        <!--<h3 style="color: white; font-family: 'Courier New', Courier, monospace;">Login</h3>--><br>
+        <p id="txt2">Usuario:</p>
+        <input id="txtCorreo" type="text" style="margin-bottom: 10px">
+        <p id="txt">Contraseña:</p>
+        <input id="txtContrasenna" type="password" style="margin-bottom: 10px"><br><br>
         <input id="btnIngresar" type="button" value="Confirmar">
     </form>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0IkC90FErV6g11RlcVz1PL1gCa0wFit4jXn72kkw9dFJhhg/viewform">
-        <p>Crear una cuenta</p>
+        <h4>Crear una cuenta</h4>
     </a>
     <script src="login.js"></script>
     
