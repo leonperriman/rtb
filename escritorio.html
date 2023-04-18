@@ -13,6 +13,10 @@
          font: bold 1.5em dotum, "lucida sans", arial; 
          text-align: center;
          /*float: right;*/ margin: 0 auto; }
+
+         #fecha {
+            text-align:center;
+         }
     </style>
     <script>
         function actual() {
@@ -42,6 +46,13 @@ setInterval(actualizar,1000); //iniciar temporizador
     </script>
     <div id="reloj" class="reloj">00 : 00 : 00
     </div>    
+    <br>
+    <div id="fecha">
+        <script>
+        date = new Date().toLocaleDateString();
+        document.write(date);
+        </script>
+        </div>
     <a href="google.html">
         <img style="width: 40px;border-radius: 10%;translate:20px;" src="img/google.png">
     </a>
@@ -70,7 +81,7 @@ setInterval(actualizar,1000); //iniciar temporizador
         <img style="width:55px; translate:20px;border-radius: 10%;" src="Escupi App/Sin título.jpeg">
     </a>
     <h5 style="color:white; translate: 10px;">Escupitera</h5>
-    <br><br><br><br><br><br>
+    <br><br><br><br><br>
     <p style="background-color:white;">
     <a href="version.html">
         <img style="width: 30px;border-radius: 10%;" src="img/ajustes.jpeg">
