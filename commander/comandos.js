@@ -27,9 +27,16 @@ botonEjecutar.addEventListener('click', function() {
       if (listaPartes[0] === '/notes') {
          alert("La nota de " + listaPartes[1] + " del " + listaPartes[2] + " es un " + listaPartes[3])
       }
+
+      if (listaPartes[0] === '/bdb') {
+         alert(listaPartes[1] + " ha sido " + listaPartes[2])
+      }
+
+      if (listaPartes[0] === '/comment') {
+         alert("El comentario " + listaPartes[1] + listaPartes[2] + listaPartes[3] + listaPartes[4] + listaPartes[5] + " ha sido fijado")
+      }
 //else {
 //      alert ('Comando no encontrado')
 //   }
 });
-
    
