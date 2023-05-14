@@ -26,10 +26,13 @@
         left: 50%;
         margin-left: -25px;
     }
-
+    #spinner-bola > img {
+        width: 300px;
+        height: 300px;
+    }
     #cargando > img {
-        width: 50px;
-        height: 50px;
+        width: 15px;
+        height: 15px;
     }
 </style>
 <body>
@@ -38,8 +41,11 @@
     </div>
     <h3 id="titulo">RETBE</h3>
     <div id="cargando">
-        <img src="img/spinner-eclipse.gif" ><br/>
-        Cargando
+        <span id="textoActualizar">
+            Actualizando
+        </span>
+        <img src="img/Spin-1s-200px.gif" >
+        
     </div>
     <script src="js/index.js"></script>
 </body>
