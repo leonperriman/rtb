@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="windows">
+        <img src="img/Cube-1s-200px (1).gif">
+    </div>
+    <div id="windows1">
+        <img src="img/Spinner-1s-200px.gif">
+    </div>
+    <script>
+        function windowsFunction() {
+    window.location.href = 'usuario.html'
+}
+setTimeout(windowsFunction, 7000);
+    </script>
+    <style>
+        body {
+            background-color: black;
+        }
+        #windows {
+            text-align: center;
+        }
+        #windows1 {
+            text-align: center;
+            position: fixed;
+            bottom: 100px;
+            left: 50%;
+            margin-left: -50px;
+        }
+        #windows1 > img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</body>
+</html>
