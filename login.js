@@ -6,7 +6,8 @@ function validarCredencialesFacil(correo, password) {
         { email: 'chuchiperriman.retbe', password: 'leonyaresmejores'},
         { email: 'tamarita.retbe' , password: 'tamarita123'},
         { email: 'gomas.retbe' , password: 'XD'},
-        { email: 'usuario.admin', password: 'leonadmin'},
+        { email: 'jaimebolado.retbe', password: 'SinEspecificar'},
+        { email: 'yeronbailador.retbe', password: 'SinEspecificar'},
     ];
 
     for ( usuario in listaUsuarios) {
@@ -21,11 +22,13 @@ function validarCredencialesFacil(correo, password) {
        return true;
     }  else if (correo === 'chuchiperriman.retbe' && password === 'leonyaresmejores') {
         return true;
-    } else if (correo === 'usuario.admin' && password === 'leonadmin') {
-        return true;
     } else if (correo === 'tamarita.retbe' && password === 'tamarita123') {
         return true;
     } else if (correo === 'gomas.retbe' && password === 'XD') {
+        return true;
+    } else if (correo === 'jaimebolado.retbe' && password === 'SinEspecificar') {
+        return true;
+    } else if (correo === 'yeronbailador.retbe' && password === 'SinEspecificar') {
         return true;
     } else {
        alert('Usuario y contraseña incorrectos');
@@ -34,8 +37,8 @@ function validarCredencialesFacil(correo, password) {
 }
 
 function ingresarFacil(correo) {
-    if (correo === 'usuario.admin') {
-        window.location.href ='admin.html';
+    if (correo === 'leontrollas.retbe') {
+        window.location.href ='escritorio.html';
     } else {
         window.location.href ='escritorio.html';
     }
