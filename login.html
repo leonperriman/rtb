@@ -48,8 +48,28 @@
     a {
         text-decoration: none;
     }
+    #modal {
+        border: 2px solid;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    #modal > button {
+        border-radius: 10%;
+    }
 </style>
 <body background="img/photo-1511300636408-a63a89df3482.jpeg" style="font-family: 'Courier New', Courier, monospace; background-repeat:no-repeat; background-position: down ;background-size:100%;">
+    <dialog id="modal" open>
+        <h3>Novedades 1.15</h3>
+        ·Hemos facilitado el inicio de sesión
+        <br>
+        para que podamos iniciar sesion mas facil
+        <br>
+        <br>
+        ·Hemos añadido un par de usuarios 
+        <br>
+        <br>
+        <button onclick="window.modal.close();">Cerrar</button>
+    </dialog>
     <form class="form" style="text-align: center;">
         <!--<h3 style="color: white; font-family: 'Courier New', Courier, monospace;">Login</h3>--><br>
         <p id="txt2">Usuario:</p>
