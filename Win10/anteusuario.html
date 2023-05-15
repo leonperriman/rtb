@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="cuerpo" background="img/fondobloq.jpg" style="background-repeat:no-repeat; background-position: down; background-size: 100%;">
+    <div id="w">
+        <script>
+        date = new Date().toLocaleDateString();
+        document.write(date);
+        </script>
+        </div>
+        <script>
+            function actual() {
+         fecha=new Date(); //Actualizar fecha.
+         hora=fecha.getHours(); //hora actual
+         minuto=fecha.getMinutes(); //minuto actual
+         segundo=fecha.getSeconds(); //segundo actual
+         if (hora<10) { //dos cifras para la hora
+            hora="0"+hora;
+            }
+         if (minuto<10) { //dos cifras para el minuto
+            minuto="0"+minuto;
+            }
+         if (segundo<10) { //dos cifras para el segundo
+            segundo="0"+segundo;
+            }
+         //ver en el recuadro del reloj:
+         mireloj = hora+":"+minuto ;	
+				 return mireloj; 
+         }
+function actualizar() { //función del temporizador
+   mihora=actual(); //recoger hora actual
+   mireloj=document.getElementById("reloj"); //buscar elemento reloj
+   mireloj.innerHTML=mihora; //incluir hora en elemento
+	 }
+setInterval(actualizar,1000); //iniciar temporizador
+        </script>
+    <style>
+        .reloj { width: 600px; height: 30px; padding: 5px 10px; border: none;
+        font-size: 90px;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0 auto;
+        position: fixed;
+        bottom: 150px; 
+        color: white;
+
+    }
+    div {
+        color: white;
+    }
+    #w {
+        position: fixed;
+        bottom: 60px;
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    </style>
+    <div id="reloj" class="reloj">00:00
+    </div>  
+    <script src="index.js"></script>
+</body>
+</html>
