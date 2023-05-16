@@ -9,7 +9,20 @@
 <body background="img/fondo-de-pantalla-windows-10-no-oficial-1-290615.png" style="background-repeat:no-repeat; background-position: down; background-size: 100%;">
     <div id="barra-de-tareas">
         <img src="img/windows.jpeg">
+        <div id="derecha">
+        <div id="reloj" class="reloj">00:00
+        </div>
+        <div id="w">
+            <script>
+            date = new Date().toLocaleDateString();
+            document.write(date);
+            </script>
+            </div>
     </div>
+    <input id="buscar"placeholder="Escribe aquí para buscar">
+    <img src="img/cortana.png">
+    <img id="edge" src="img/edge.jpeg">
+</div>
     <style>
         #barra-de-tareas {
             background-color: white;
@@ -17,12 +30,45 @@
             bottom: 0px;
             left: 0px;
             right: 0px;
+            display: inline-block;
 
         }
         #barra-de-tareas > img {
             height: 30px;
             width: 30px;
         }
+        #derecha {
+            float: right;
+        }
+        #edge {
+            left: 20px;
+        }
     </style>
+    <script>
+        function actual() {
+     fecha=new Date(); //Actualizar fecha.
+     hora=fecha.getHours(); //hora actual
+     minuto=fecha.getMinutes(); //minuto actual
+     segundo=fecha.getSeconds(); //segundo actual
+     if (hora<10) { //dos cifras para la hora
+        hora="0"+hora;
+        }
+     if (minuto<10) { //dos cifras para el minuto
+        minuto="0"+minuto;
+        }
+     if (segundo<10) { //dos cifras para el segundo
+        segundo="0"+segundo;
+        }
+     //ver en el recuadro del reloj:
+     mireloj = hora+":"+minuto ;	
+             return mireloj; 
+     }
+function actualizar() { //función del temporizador
+mihora=actual(); //recoger hora actual
+mireloj=document.getElementById("reloj"); //buscar elemento reloj
+mireloj.innerHTML=mihora; //incluir hora en elemento
+ }
+setInterval(actualizar,1000); //iniciar temporizador
+    </script>
 </body>
 </html>
