@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="14.0in"
+   height="8.5in"
+   viewBox="0 0 14.0 8.5"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="dibujo.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="in"
+     showgrid="false"
+     inkscape:zoom="0.69664703"
+     inkscape:cx="396.90114"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1846"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs9">
+    <rect
+       x="508.2268"
+       y="503.19713"
+       width="607.08754"
+       height="436.77959"
+       id="rect36146" />
+    <rect
+       x="501.87382"
+       y="236.37217"
+       width="371.73595"
+       height="235.55909"
+       id="rect12078" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.01041667)"
+       id="text12076"
+       style="font-size:192px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect12078);fill:#00ff00"><tspan
+         x="501.87305"
+         y="406.24805"
+         id="tspan86138">  e</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.416667px;line-height:1.25;font-family:sans-serif;stroke-width:0.0104167"
+       x="5.2962503"
+       y="3.9770355"
+       id="text24370"><tspan
+         sodipodi:role="line"
+         id="tspan24368"
+         style="stroke-width:0.0104167"
+         x="5.2962503"
+         y="3.9770355"> </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.01160181,0,0,0.01041667,-1.1362984,0)"
+       id="text36144"
+       style="font-size:192px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect36146)"><tspan
+         x="508.22656"
+         y="673.07227"
+         id="tspan86140">shop</tspan></text>
+  </g>
+</svg>
